@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+}
+
+#background_image {
+  background-image: url('../images/background-3.png');
+}
+
+.title_font {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+/*********************************/
+/************Header***************/
+/*********************************/
+.header_wrap {
+  background-color: #ffffff;
+  height: 68px;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+}
+
+.name {
+  color: white;
+  width: 12%;
+  padding: 20px 0px;
+  background-color: #4aaaa5;
+  float: left;
+  margin: 0% 33% 0 13%;
+  text-align: center;
+}
+
+.page_listings {
+  width: 27%;
+  float: left;
+  margin: 1.5% 0 0 0;
+}
+
+li {
+  display: inline;
+  border-right: 1px gray solid;
+  padding: 0 5%;
+  decoration: none;
+}
+
+#contact_link {
+  border: none;
+}
+
+.page_listings > a {
+  text-decoration: none;
+  color: gray;
+}
+
+#header_hr {
+  width: 100%;
+  height: 3px;
+  background-color: #cccccc;
+  border: none;
+  margin-bottom: 2%;
+}
+
+
+/************************************/
+/************Main Content***************/
+/************************************/
+
+#content {
+  width: 960px;
+  margin: 2% 0 0 13%;
+}
+
+.main_content {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  float: left;
+  padding: 0 20px 10px 20px;
+  margin-bottom: 12%;
+  width: 610px;
+}
+
+#about_me, #contact_me, #portfolio_title {
+  color: #4aaaa5;
+  margin: 3%;
+  border-bottom: 2px solid #dddddd;
+  padding-bottom: 2.5%;
+}
+
+#brett_photo {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+#brett_bio {
+  display: inline;
+}
+
+.form_title, input, #message_field {
+  color: gray;
+  margin: 0 3%;
+}
+
+input, #message_field {
+  margin: 1% 0 4% 3%;
+  width: 82%;
+  padding: 1%;
+}
+
+
+#submit_button {
+  padding: 2% 4%;
+  color: white;
+  background-color: #4aaaa5;
+  border: none;
+  decoration: none;
+  margin-left: 3%;
+  font-weight: 700;
+  width: 20%;
+}
+
+#submit_button:hover{
+  color:#4aaaa5;
+  border: 2px solid #4aaaa5;
+  background-color: white;
+  padding: 1.75% 3.75%;
+  decoration: none;
+}
+
+#message_field {
+  height: 100px;
+}
+
+.project_images {
+  width: 525px;
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio_img {
+  height: 200px;
+  width: 250px;
+  margin: 1%;
+}
+
+.portfolio_link {
+  background-color: rgba(74,170,165, 0.5);
+  color: #ffffff;
+  position: absolute;
+  margin: -4% 0 0 0.15%;
+  z-index: 1;
+  width: 16.45%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+/*********************************/
+/**************Contacts***********/
+/*********************************/
+
+.sidebar {
+  background-color: white;
+  border: 1px solid #dddddd;
+  flex-direction: column;
+  float: right;
+  width: 270px;
+  margin-bottom: 12%;
+}
+
+.contacts_title {
+  text-align: center;
+  border-bottom: 2px solid #dddddd;
+  width: 80%;
+  margin: 3% 0 0 10%;
+  color:#4aaaa5;
+  padding-bottom: 2.5%;
+}
+
+.contacts_content {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 5% 5% 12%;
+}
+
+img {
+  height: 95%;
+  width: 65%;
+}
+
+/*********************************/
+/************Footer***************/
+/*********************************/
+.footer {
+  clear: both;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  margin-top:3%;
+  padding: 46px 0;
+  background-color: #666666;
+  color: white;
+  width: 100%;
+  height: 30px;
+  min-height: 30px;
+}
