@@ -273,6 +273,11 @@ img {
     width: 52%;
   }
 
+  .contact_main_content {
+    padding-bottom: 2.5%;
+    margin-bottom: 33%;
+  }
+
   #brett_photo {
     height: 75%;
     width: 75%;
