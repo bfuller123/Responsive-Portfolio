@@ -306,6 +306,35 @@ img {
   }
 
   .portfolio_img {
+    height: 200px;
+    width: 250px;
+    margin: 1%;
+  }
+
+  .portfolio_link {
+    background-color: rgba(74,170,165, 0.5);
+    color: #ffffff;
+    position: absolute;
+    margin: -6% 0 0 0.3%;
+    z-index: 1;
+    width: 31.3%;
+    text-align: center;
+    padding: 5px 0;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .project_images {
+    width: 325px;
+    margin-left: -1.5%;
+    margin-bottom: 10.3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .portfolio_img {
     height: 125px;
     width: 145px;
     margin: 1%;
@@ -321,11 +350,6 @@ img {
     text-align: center;
     padding: 5px 0;
   }
-
-}
-
-@media screen and (max-width: 768px) {
-
 }
 
 @media screen and (max-width: 640px) {
