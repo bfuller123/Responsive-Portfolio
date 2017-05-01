@@ -167,9 +167,9 @@ input, #message_field {
   background-color: rgba(74,170,165, 0.5);
   color: #ffffff;
   position: absolute;
-  margin: -4% 0 0 0.15%;
+  margin: -4% 0 0 2.5px;
   z-index: 1;
-  width: 16.45%;
+  width: 250.33px;
   text-align: center;
   padding: 5px 0;
 }
@@ -322,12 +322,14 @@ img {
     position: absolute;
     margin: -6% 0 0 0.3%;
     z-index: 1;
-    width: 31.3%;
+    width: 250px;
     text-align: center;
     padding: 5px 0;
   }
 
 }
+
+
 
 @media screen and (max-width: 768px) {
   .main_content {
@@ -364,6 +366,34 @@ img {
     margin-bottom: 5%;
   }
 
+  .project_images {
+    width: 525px;
+    margin-left: -1.5%;
+    margin-bottom: 10.3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .portfolio_link {
+    background-color: rgba(74,170,165, 0.5);
+    color: #ffffff;
+    position: absolute;
+    margin: -8% 0 0 0.333%;
+    z-index: 1;
+    width: 250px;
+    text-align: center;
+    padding: 5px 0;
+  }
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+  .header_wrap {
+    background-color: purple;
+  }
 
   .project_images {
     width: 325px;
@@ -389,11 +419,5 @@ img {
     width: 16.45%;
     text-align: center;
     padding: 5px 0;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .header_wrap {
-    background-color: purple;
   }
 }
