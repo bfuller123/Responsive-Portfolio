@@ -44,7 +44,7 @@ body {
   padding: 1.5% 0px;
   background-color: #4aaaa5;
   float: left;
-  margin: 0% 33% 0 13%;
+  margin: 0% 24.5% 0 13%;
   text-align: center;
 }
 
@@ -183,7 +183,7 @@ input, #message_field {
   border: 1px solid #dddddd;
   flex-direction: column;
   float: right;
-  width: 270px;
+  width: 28.5%;
   margin-bottom: 12%;
 }
 
