@@ -269,14 +269,31 @@ img {
   .main_content {
     float: left;
     padding: 0 4% 2% 4%;
-    margin-bottom: 12%;
+    margin: 0 5% 12% 0;
     width: 52%;
   }
 
   #brett_photo {
-    height: 50%;
-    width: 50%;
-    margin-right: 2%;
+    height: 75%;
+    width: 75%;
+    margin: 1% 0 2% 8%;
+  }
+
+  #brett_bio {
+    display: table-row;
+  }
+
+  .sidebar {
+    background-color: white;
+    border: 1px solid #dddddd;
+    flex-direction: column;
+    float: left;
+    width: 28.5%;
+    margin-bottom: 12%;
+  }
+
+  .contacts_title {
+    font-size: 80%;
   }
 
   .project_images {
