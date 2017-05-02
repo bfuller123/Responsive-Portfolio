@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  line-height: 135%;
+  line-height: 150%;
 }
 
 body {
@@ -151,7 +151,7 @@ input, #message_field {
 
 .project_images {
   width: 525px;
-  margin-left: 10%;
+  margin-left: 7%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -392,32 +392,45 @@ img {
 
 @media screen and (max-width: 640px) {
   .header_wrap {
-    background-color: purple;
+    width: 100%;
+    height: auto;
+  }
+
+  .name {
+    width: 100%;
+    margin-left: auto;
+  }
+
+  .page_listings {
+    width: 100%;
+    margin: 2% 0;
+    text-align: center;
+  }
+
+ #portfolio_link {
+    padding: 0 15%;
+  }
+
+  #about_link {
+    padding-right: 15%;
+  }
+
+  #contact_link {
+    padding-left: 15%;
+  }
+
+  #brett_photo {
+    width: 75%;
+    height: 75%;
   }
 
   .project_images {
-    width: 325px;
-    margin-left: -1.5%;
+    width: 275px;
+    margin-left: 15%;
     margin-bottom: 10.3%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
   }
 
-  .portfolio_img {
-    height: 125px;
-    width: 145px;
-    margin: 1%;
-  }
-
-  .portfolio_link {
-    background-color: rgba(74,170,165, 0.5);
-    color: #ffffff;
-    position: absolute;
-    margin: -8% 0 0 0.15%;
-    z-index: 1;
-    width: 16.45%;
-    text-align: center;
-    padding: 5px 0;
-  }
 }
